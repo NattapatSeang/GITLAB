@@ -22,10 +22,10 @@ void main()
        }
     }
     if (!won)
-      printf("Sorry lottery number %4d did not win\n", YourLotteryNo);
+      printf("Sorry lottery number %4d did not win, It's not your turn ;(\n", YourLotteryNo);
     printf("Enter your lottery number (0 to end): ");
     scanf("%d", &YourLotteryNo);
   }
-  printf("GOODBYE");
+  printf("GOODBYE Su Su Naa");
   scanf("%d", &i);
 }
